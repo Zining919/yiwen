@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="layout.css" rel="stylesheet"/>
+        <link href="home.css" rel="stylesheet"/>
+        <title>WENN'S GREEN DESIGN STUDIO</title>
+    </head>
+
+    <body>
+        <div class="header">
+          <img src="logo.png" alt="logo" id="logo" style="height: 30%; width: 55%;"/>
+          <header>WENN'S GREEN DESIGN STUDIO</header>
+            <nav>
+                <li><a href="home.html"  class="active">Home</a></li>
+                <li>
+                    <div class="subnav">
+                        <button class="subnavbtn">About Us <i class="fa fa-caret-down"></i></button>
+                      <div class="subnav-content">
+                        <a href="about.html">About Us</a>
+                        <br>
+                        <a href="story.html">Story Of Logo</a>
+                      </div>
+                    </div>
+                </li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </nav>
+        </div>
+            <h1>"Recycle,Reuse,Reduce"---------</h1>
+        <div class="container1">
+            <img id="bg"src="home1.png" alt="company"/>
+            <p><span style="font-size: 20px; font-weight: bold;">GREEN INTERIOR GESIGNER </span> <br>   
+            We are a unique retailer offering a line of eco-friendly
+            , sustainable products for all parts of the home and office. We will bring green design to commercial and residential interiors to create a green environment.
+                    </p>   
+        </div>
+
+        <h2 id="officeTit">Our Green Project</h2>
+        <div class="display">
+        <div class="office">
+            <span class="title">OFFICE DESIGN</span>
+            <div class="slideshow-container">
+                <div class="mySlides1">
+                  <img src="office1.jpg" style="width:450px;">
+                </div>
+              
+                <div class="mySlides1">
+                  <img src="office2.jpg" style="width:450px">
+                </div>
+              
+                <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+              </div>
+        </div>
+
+        <br><br>
+        <div class="residential">
+            <span class="title">RESIDENTIAL DESIGN</span>
+            <div class="slideshow-container">
+                <div class="mySlides2">
+                  <img src="house1.jpg" style="width:450px">
+                </div>
+              
+                <div class="mySlides2">
+                  <img src="house2.jpg" style="width:450px">
+                </div>
+              
+                <div class="mySlides2">
+                  <img src="house3.jpg" style="width:450px">
+                </div>
+              
+                <div class="mySlides2">
+                  <img src="house4.jpg" style="width:450px">
+                </div>
+          
+                <div class="mySlides2">
+                  <img src="house5.png" style="width:450px">
+                </div>
+          
+                <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+              </div>
+        </div>
+                    
+    </div>
+    </body>
+
+    <footer>
+        Copyright&#169;2023 Wenn's Green Design Studio <br>
+    </footer>
+
+    <script>
+    let slideIndex = [1,1];
+    let slideId = ["mySlides1", "mySlides2"]
+    showSlides(1, 0);
+    showSlides(1, 1);
+    
+    function plusSlides(n, no) {
+      showSlides(slideIndex[no] += n, no);
+    }
+    
+    function showSlides(n, no) {
+      let i;
+      let x = document.getElementsByClassName(slideId[no]);
+      if (n > x.length) {slideIndex[no] = 1}    
+      if (n < 1) {slideIndex[no] = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";  
+      }
+      x[slideIndex[no]-1].style.display = "block";  
+    }
+    </script>
+</html>

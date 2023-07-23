@@ -1,0 +1,41 @@
+.p1 img{
+    float: right;
+    height: 400px;
+}
+
+.p1{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px;
+}
+
+.p1 span{
+    float: right;
+}
+
+.p2{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+}
+
+.p2 img{
+    height: 300px;
+}
+
+.p2 div{
+    margin-left: 10px;
+}
+
+.p1,.p2{
+    margin-bottom: 10%;
+    background-color: rgba(218, 227, 170, 0.3);
+}
+
+h1{
+    text-align: center;
+}

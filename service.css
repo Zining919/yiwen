@@ -1,0 +1,97 @@
+.id{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.id img{
+    width: 50%;
+}
+
+.id span{
+    font-size: 1.5em;
+    align-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+.vission img{
+    width: 200px;
+    float: right;
+    padding: 5px 5px;
+}
+
+.vission{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mission img{
+    width: 200px;
+    padding: 5px 5px;
+    max-height: 500px;
+}
+
+.vission{
+    margin-bottom: 10%;
+}
+
+.mission{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.vission li, .mission li{
+    font-size: 1.5em;
+}
+
+h1{
+    text-align: center;
+}
+
+.core img{
+    width: 200px;
+    padding: 5px 5px;
+}
+
+.core{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.text2{
+    word-wrap: break-word;
+    width: 60%;
+}
+
+.container2{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.text2 p{
+    font-size: 1.2em;
+}
+
+.text2 h4{
+    font-size: 1.5em;
+}
+
+.core h2{
+    font-size: 2em;
+}

@@ -1,0 +1,131 @@
+h1{
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: solid rgb(0, 34, 34);
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.card img{
+    width: 400px;
+    height: 100%;
+    height: fit-content;
+    margin: 20px 10px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.size{
+    margin: 5px 0;
+}
+
+.size label{
+    font-size: 20px;
+}
+
+.size select{
+    height: 30px;
+}
+
+.action{
+    font-weight: bold;
+    margin: 20px;
+    padding: 5px 10px;
+}
+
+.add-cart{
+    text-decoration: none;
+    color: black;
+}
+
+.quantity{
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+ .add,.sub{
+    margin: 0;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.qty,.count{
+border-radius: 10px;
+outline: none;
+border: none;
+padding: 15px 0;
+width:50px;
+text-align: center;
+}
+ 
+.slider {
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+.prev, .next {
+    cursor: pointer;
+    width: auto;
+    position: relative;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    top: -250px;
+  }
+
+.prev{
+    margin-right: 500px;
+}
+
+.next{
+    top:-280px;
+    margin-left: 380px;
+}
+
+.slideshow-container{
+    width: 70%;
+    max-width: 400px;
+    margin-right: 10px;
+    margin-top: 5%;
+}
+
+.details{
+    width: 50%;
+    margin: auto auto;
+}
+
+.description{
+    word-wrap: break-word;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.more {display: none;}
